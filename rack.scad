@@ -11,8 +11,8 @@ difference(){
         translate([0,25,0])import("original-v2.stl", convexity=10);
 
         // bottom thumb nut interfaces
-        translate([-52,-54,0])cylinder(h=5, d=12);
-        translate([52,-54,0])cylinder(h=5, d=12);
+        translate([-52,-54,0])cylinder(h=5, d=12, $fn=36);
+        translate([52,-54,0])cylinder(h=5, d=12, $fn=36);
 
         // top thumb nut interfaces
         translate([52,-5,0])rotate([0,0,0])linear_extrude(5)spacer_profile();
@@ -28,12 +28,12 @@ difference(){
         translate([-52,-5,0])linear_extrude(5)spacer_hole(6.1);
 
         // bottom holes
-        translate([-52,-54,0])cylinder(h=5, d=6.1);
-        translate([52,-54,0])cylinder(h=5, d=6.1);
+        translate([-52,-54,0])cylinder(h=5, d=6.1, $fn=36);
+        translate([52,-54,0])cylinder(h=5, d=6.1, $fn=36);
 
         // cutout for top interface
-        translate([52,-5,-2.5])cylinder(h=2.5, d=13);
-        translate([-52,-5,-2.5])cylinder(h=2.5, d=13);
+        translate([52,-5,-2.5])cylinder(h=2.5, d=13, $fn=36);
+        translate([-52,-5,-2.5])cylinder(h=2.5, d=13, $fn=36);
 
     }
 }
@@ -70,8 +70,8 @@ difference(){
         translate([0,25,0])import("original-v2.stl", convexity=10);
 
         // bottom thumb nut interfaces
-        translate([-52,-54,0])cylinder(h=5, d=9);
-        translate([52,-54,0])cylinder(h=5, d=9);
+        translate([-52,-54,0])cylinder(h=5, d=9, $fn=36);
+        translate([52,-54,0])cylinder(h=5, d=9, $fn=36);
 
         // top thumb nut interfaces
         translate([52,-5,0])rotate([0,0,0])linear_extrude(5)spacer_profile();
@@ -87,12 +87,12 @@ difference(){
         translate([-52,-5,0])linear_extrude(5)spacer_hole(3.1);
 
         // bottom holes
-        translate([-52,-54,0])cylinder(h=5, d=3.1);
-        translate([52,-54,0])cylinder(h=5, d=3.1);
+        translate([-52,-54,0])cylinder(h=5, d=3.1, $fn=36);
+        translate([52,-54,0])cylinder(h=5, d=3.1, $fn=36);
 
         // cutout for top interface
-        translate([52,-5,-2.5])cylinder(h=2.5, d=9);
-        translate([-52,-5,-2.5])cylinder(h=2.5, d=9);
+        translate([52,-5,-2.5])cylinder(h=2.5, d=9, $fn=36);
+        translate([-52,-5,-2.5])cylinder(h=2.5, d=9, $fn=36);
 
     }
 }
